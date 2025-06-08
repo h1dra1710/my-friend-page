@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Some of My Friends</title>
+</head>
+<body>
+  <main>
+    <h1>Some of my friends</h1>
+    <p>
+      When I first came to Saigon, I met a lot of people and made many friends. But some of them are <b>special</b>.<br>
+      Here, I will introduce a few of them to anyone who can access this page.
+    </p>
+
+    <h2>Here are 5 of my niggas:</h2>
+    <ol>
+      <li title="Nam Anh is a gigachad who never hurts anyone">
+        <b>NamAnh</b><br>
+        <img src="wd4e-html/images/nam.jpg" alt="Chillguys" width="500" height="450">
+        <ul>
+          <li>He's from Binh Dinh, about 558 km away from our school in Saigon.</li>
+          <li title="Sorry, I don't know much about him">Good point = bad point.</li>
+        </ul>
+        <p>Press <b>F</b> to pay respect for Nam <button>F</button></p>
+      </li>
+
+      <li title="Look at his jawline, it's real">
+        <b>TranNgocThanh</b><br>
+        <img src="wd4e-html/images/thanh.jpg" alt="Good guy from Thanh Hoa" width="500" height="450">
+        <ul>
+          <li>
+            Thanh is from Thanh Hoa, around 1,323 km away. It's in the central region, which often suffers from storms and floods.
+            I'm grateful to have met him.
+          </li>
+          <li>
+            Thanh knows something about everything—science, history, music, or random facts. He also does <b>mewing</b> sometimes, which is kind of cute.
+          </li>
+        </ul>
+        <p title="Also known as 'Mau Trang'">Press <b>F</b> to pay respect to Thanh <button>F</button></p>
+      </li>
+
+      <li title="Tan always teasing people playfully">
+        <b>NguyenXuanTan</b><br>
+        <img src="wd4e-html/images/mewithtan.jpg" alt="Tan and me" width="1000" height="500"
+             title="The guy on the left has a weight equal to the width of this image (approx. 500kg)">
+        <p title="I’ve helped you too, bro, just give and take :)">
+          Tan is a good guy, always there to help me when I need it. I <b>appreciate</b> that.
+        </p>
+        <ul>
+          <li>He's from Binh Thuan, about 197 km away—closer than Nam.</li>
+          <li title="I wish I had a girlfriend too :(">
+            My friends Nam and Tan always smile at their phones like they're texting someone special.
+          </li>
+          <li>They both live in dormitory B. They must be very good students to get in there.</li>
+        </ul>
+        <p title="Although we sometimes argue, I still respect and wish we support each other moving forward">
+          Press <b>F</b> to pay respect for Tan <button>F</button>
+        </p>
+      </li>
+
+      <li>
+        <b>QuachAnhKhoa</b><br>
+        <img id="image" src="wd4e-html/images/khoa.jpg" alt="Khoa is a good friend" style="width: 300px; height: auto;">
+        <br><br>
+        <button onclick="resizeImage(50)">Zoom In +50px</button>
+        <button onclick="resizeImage(-50)">Zoom Out -50px</button>
+
+        <script>
+          function resizeImage(change) {
+            let img = document.getElementById("image");
+            let currentWidth = img.clientWidth;
+            let newWidth = currentWidth + change;
+            if (newWidth >= 100) {
+              img.style.width = newWidth + "px";
+            }
+          }
+        </script>
+
+        <ul>
+          <li>Khoa is from the Central Highlands like me, around 350 km away from Saigon.</li>
+          <li>He studied with us during Spring 2025, but in Summer 2025, our classes were split.</li>
+          <li>
+            Khoa was always with me during courses from CSI106 to PRF192. He has a good personality and is a trustworthy friend.
+          </li>
+          <li title="Just joking, I'm not gay">
+            Though he has a bad habit (smoking), he's still a good person. Once, he jokingly said:<br>
+            “Life is short, let’s have fun.”<br>
+            <img src="wd4e-html/images/missubro.jpg" alt="Just a joke" width="100" height="100">
+          </li>
+        </ul>
+        <p title="Hope to see you in the next semester">Press <b>F</b> to pay respect for Khoa <button>F</button></p>
+        <img src="wd4e-html/images/fadeaway.gif" alt="doingaybrotrove" width="70" height="70">
+      </li>
+
+      <li title="For you, my roommate">
+        <b>LeQuocAnh (optional)</b><br>
+        <img src="wd4e-html/images/quocanh.jpg" alt="Quoc Anh" width="500" height="450">
+        <ul>
+          <li>Quoc Anh is from Lam Dong, same region as me and Khoa.</li>
+          <li>He's very knowledgeable, especially in games like TFT.</li>
+          <li>
+            Although his family isn't wealthy, they could still afford to send him to FPT University, which shows their trust in education.
+          </li>
+        </ul>
+        <p>Press <b>F</b> to pay respect for Quoc Anh <button>F</button></p>
+      </li>
+    </ol>
+  </main>
+
+  <aside>
+    <h3>Friend info (if you want to connect):</h3>
+    <ul>
+      <li><a href="https://www.facebook.com/nguyen.xuan.tan.517430">Nguyen Xuan Tan</a></li>
+      <li><a href="https://www.facebook.com/nam.anh.79113">Nam Anh</a></li>
+      <li><a href="https://www.facebook.com/T26980">Thanh</a></li>
+      <li><a href="https://www.facebook.com/Sieu.Cap.Huong.Noi.2006">Quach Anh Khoa</a></li>
+      <li><a href="https://www.facebook.com/le.quoc.anh.603445">Le Quoc Anh</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025, Nguyen Trong Hieu<br>
+      Email: <a href="mailto:Tronghieu171026@gmail.com">Tronghieu171026@gmail.com</a>
+    </p>
+  </footer>
+</body>
+</html>
